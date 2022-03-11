@@ -49,13 +49,15 @@ namespace APBD_Cwiczenia1
 
 
             }
+            Console.WriteLine("Wynik wyszukiwania na stronie: "+ websiteURL);
 
-
+            //Sprawdzanie zawartości HashSet
             if (set.Count == 0)
             {
                 Console.WriteLine("Nie znaleziono adresów email");
             }
 
+           
             foreach (var item in set)
             {
 
